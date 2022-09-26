@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>K.L.O.S.O</title>
+  </head>
+  <body>
+    <!--nav start-->
+    <nav
+      class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900"
+    >
+      <div
+        class="container flex flex-wrap justify-between items-center mx-auto"
+      >
+        <a href="#" class="flex items-center">
+          <img
+            src="/dist/img/logo.png"
+            class="mr-3 h-6 sm:h-9"
+            alt="Kloso logo"
+          />
+        </a>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-6 h-6"
+            aria-hidden="true"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border font-Roboto border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="index.html"
+                class="block py-2 pr-4 pl-2 text-black rounded font-medium text-base hover:text-green-700 hover:opacity-80 transition duration-300 ease-in-out"
+                >Beranda</a
+              >
+            </li>
+            <li>
+              <a
+                href="about.html"
+                class="block py-2 pr-4 pl-2 text-black rounded font-medium text-base hover:text-green-700 hover:opacity-80 transition duration-300 ease-in-out"
+                >Tentang Kami</a
+              >
+            </li>
+            <li>
+              <a
+                href="blog.html"
+                class="block py-2 pr-4 pl-3 text-base text-green-700 rounded font-medium"
+                aria-current="page"
+                >Blog</a
+              >
+            </li>
+            <a
+              href="#"
+              class="text-base font-semibold text-white bg-green-700 py-3 px-8 rounded-full hover:shadow-lg hover:bg-green-500 hover:opacity-80 transition duration-300 ease-in-out"
+              >Login</a
+            >
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!---nav end-->
+    <!--section penjelasan blog-->
+    <section class="">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center mx-24 mt-8">
+            <h1 class="text-green-700 text-3xl font-semibold text-center">
+              Blog
+            </h1>
+            <h1 class="text-green-700 text-3xl font-semibold text-center">
+              Komunitas Linux Open Source
+            </h1>
+            <p class="text-black text-center mt-2 mb-10">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              omnis tenetur, corrupti facilis dolorum est repellat dolorem
+              distinctio quisquam expedita sunt! Recusandae dolorum veritatis
+              dolores non pariatur suscipit consequatur, eveniet quasi iusto
+              vitae. Nemo commodi facilis recusandae quae tempore eligendi quas
+              quidem, itaque suscipit eius quia perferendis officia atque dolor?
+            </p>
+            <div class="flex justify-center">
+              <div class="mb-3 xl:w-96">
+                <div
+                  class="input-group relative flex flex-wrap items-stretch w-full mb-4"
+                >
+                  <input
+                    type="search"
+                    class="form-control relative flex-auto min-w-0 block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-green-700 rounded-full transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-green-600 focus:outline-none"
+                    placeholder="Judul Blog"
+                    aria-label="Search"
+                    aria-describedby="button-addon2"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-center mb-8">
+              <a
+                href="#"
+                class="text-base font-semibold text-white bg-green-700 py-3 px-8 rounded-full hover:shadow-lg hover:bg-green-500 hover:opacity-80 transition duration-300 ease-in-out"
+                >Cari Blog</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--section end-->
+    <!--blog section start-->
+    <section class="mb-6">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center mx-24 mt-8 mb-8">
+            <h1 class="text-green-700 text-3xl font-bold">Semua Blog</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container mx-auto">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 p-4">
+            <a
+              href=""
+              class="c-card block bg-white shadow-md hover:shadow-lg rounded-lg overflow-hidden"
+            >
+              <div class="relative pb-48 overflow-hidden">
+                <img
+                  src="/dist/img/camping.JPG"
+                  alt=""
+                  class="absolute inset-0 h-full w-full object-cover"
+                />
+              </div>
+              <div class="p-4">
+                <span
+                  class="inline-block px-2 py-1 leading-none text-gray-400 font-semibold"
+                  >04 Juni 2022</span
+                >
+                <h2 class="mt-2 mb-2 font-bold">
+                  Outbound Dies Natalies K.L.O.S.O
+                </h2>
+                <p class="text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eveniet temporibus, neque dolor id officia alias quas
+                  voluptates reprehenderit ipsa exercitationem.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 p-4">
+            <a
+              href=""
+              class="c-card block bg-white shadow-md hover:shadow-lg rounded-lg overflow-hidden"
+            >
+              <div class="relative pb-48 overflow-hidden">
+                <img
+                  src="/dist/img/camping.JPG"
+                  alt=""
+                  class="absolute inset-0 h-full w-full object-cover"
+                />
+              </div>
+              <div class="p-4">
+                <span
+                  class="inline-block px-2 py-1 leading-none text-gray-400 font-semibold"
+                  >04 Juni 2022</span
+                >
+                <h2 class="mt-2 mb-2 font-bold">
+                  Outbound Dies Natalies K.L.O.S.O
+                </h2>
+                <p class="text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eveniet temporibus, neque dolor id officia alias quas
+                  voluptates reprehenderit ipsa exercitationem.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 p-4">
+            <a
+              href=""
+              class="c-card block bg-white shadow-md hover:shadow-lg rounded-lg overflow-hidden"
+            >
+              <div class="relative pb-48 overflow-hidden">
+                <img
+                  src="/dist/img/camping.JPG"
+                  alt=""
+                  class="absolute inset-0 h-full w-full object-cover"
+                />
+              </div>
+              <div class="p-4">
+                <span
+                  class="inline-block px-2 py-1 leading-none text-gray-400 font-semibold"
+                  >04 Juni 2022</span
+                >
+                <h2 class="mt-2 mb-2 font-bold">
+                  Outbound Dies Natalies K.L.O.S.O
+                </h2>
+                <p class="text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eveniet temporibus, neque dolor id officia alias quas
+                  voluptates reprehenderit ipsa exercitationem.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 p-4">
+            <a
+              href=""
+              class="c-card block bg-white shadow-md hover:shadow-lg rounded-lg overflow-hidden"
+            >
+              <div class="relative pb-48 overflow-hidden">
+                <img
+                  src="/dist/img/camping.JPG"
+                  alt=""
+                  class="absolute inset-0 h-full w-full object-cover"
+                />
+              </div>
+              <div class="p-4">
+                <span
+                  class="inline-block px-2 py-1 leading-none text-gray-400 font-semibold"
+                  >04 Juni 2022</span
+                >
+                <h2 class="mt-2 mb-2 font-bold">
+                  Outbound Dies Natalies K.L.O.S.O
+                </h2>
+                <p class="text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eveniet temporibus, neque dolor id officia alias quas
+                  voluptates reprehenderit ipsa exercitationem.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 p-4">
+            <a
+              href=""
+              class="c-card block bg-white shadow-md hover:shadow-lg rounded-lg overflow-hidden"
+            >
+              <div class="relative pb-48 overflow-hidden">
+                <img
+                  src="/dist/img/camping.JPG"
+                  alt=""
+                  class="absolute inset-0 h-full w-full object-cover"
+                />
+              </div>
+              <div class="p-4">
+                <span
+                  class="inline-block px-2 py-1 leading-none text-gray-400 font-semibold"
+                  >04 Juni 2022</span
+                >
+                <h2 class="mt-2 mb-2 font-bold">
+                  Outbound Dies Natalies K.L.O.S.O
+                </h2>
+                <p class="text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eveniet temporibus, neque dolor id officia alias quas
+                  voluptates reprehenderit ipsa exercitationem.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 p-4">
+            <a
+              href=""
+              class="c-card block bg-white shadow-md hover:shadow-lg rounded-lg overflow-hidden"
+            >
+              <div class="relative pb-48 overflow-hidden">
+                <img
+                  src="/dist/img/camping.JPG"
+                  alt=""
+                  class="absolute inset-0 h-full w-full object-cover"
+                />
+              </div>
+              <div class="p-4">
+                <span
+                  class="inline-block px-2 py-1 leading-none text-gray-400 font-semibold"
+                  >04 Juni 2022</span
+                >
+                <h2 class="mt-2 mb-2 font-bold">
+                  Outbound Dies Natalies K.L.O.S.O
+                </h2>
+                <p class="text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eveniet temporibus, neque dolor id officia alias quas
+                  voluptates reprehenderit ipsa exercitationem.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="flex justify-center mx-auto mt-4 mb-8">
+            <ul class="inline-flex items-center -space-x-px">
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 ml-0 leading-tight text-gray-500 bg-white rounded-l-lg border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+                >
+                  <span class="sr-only">Previous</span>
+                  <svg
+                    aria-hidden="true"
+                    class="w-5 h-5"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="py-2 px-3 leading-tight text-green-700 bg-green-300 border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+                  >1</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="py-2 px-3 leading-tight text-gray-500 bg-white border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+                  >2</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  aria-current="page"
+                  class="z-10 py-2 px-3 leading-tight text-gray-500 hover:bg-blue-100 hover:text-green-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white"
+                  >3</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="py-2 px-3 leading-tight text-gray-500 bg-white border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+                  >4</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="py-2 px-3 leading-tight text-gray-500 bg-white border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+                  >5</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 leading-tight text-gray-500 bg-white rounded-r-lg border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+                >
+                  <span class="sr-only">Next</span>
+                  <svg
+                    aria-hidden="true"
+                    class="w-5 h-5"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--blod end-->
+    <!--footer start-->
+    <footer class="bg-green-700 text-center lg:text-center">
+      <div class="text-white text-center p-4">
+        Copyright 2022 Made With Love From Banyuwangi
+      </div>
+    </footer>
+  </body>
+</html>
