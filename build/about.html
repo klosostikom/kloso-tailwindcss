@@ -84,14 +84,14 @@
     <section class="pt-8" id="history">
       <div class="container">
         <div class="flex flex-wrap">
-          <div class="w-full self-center mx-24 text-center">
+          <div class="w-full self-center mx-10 text-center lg:mx-24">
             <h1 class="text-green-700 text-3xl font-bold text-center">
               Sejarah
             </h1>
             <h1 class="text-green-700 text-3xl font-bold text-center">
               Komunitas Linux Open Source
             </h1>
-            <p class="text-gray-400 text-center mt-2">
+            <p class="text-gray-400 text-center mt-2 lg:text-center">
               UKM K.L.O.S.O berdiri pada tanggal 3 Juni 2015, Komunitas ini
               merupakan salah satu UKM yang ada di STIKOM PGRI Banyuwangi.
               K.L.O.S.O bergerak dibidang pemrograman dan sistem operasi Linux.
@@ -112,36 +112,42 @@
               Komunitas Linux Open Source
             </h1>
           </div>
-          <div class="w-full self-center mt-6 justify-center flex lg:w-1/2">
-            <img src="img/visi.png" alt="" />
+          <div class="visi flex flex-col lg:flex-row">
+            <div class="w-full self-center mt-6 justify-center flex lg:w-1/2">
+              <img
+                class="h-28 w-40 lg:h-52 lg:w-60"
+                src="img/visi.png"
+                alt=""
+              />
+            </div>
+            <div class="w-full self-center mt-6 justify-center flex lg:w-1/2">
+              <h4 class="text-gray-400 text-center mx-9">
+                1. Membangun Kesatuan dan Kesehatian antar Mahasiswa di STIKOM
+                PGRI Banyuwangi <br />
+                2. Saling melayani dan menguatkan antar mahasiswa didalam
+                lingkungan STIKOM PGRI Banyuwangi <br />
+                3. Membangun Kreativitas serta pengembangan ilmu pengetahuan
+                bahwa masih ada OS (Operating System) selain Windows<br />
+              </h4>
+            </div>
           </div>
-          <div class="w-full self-center mt-6 justify-center flex lg:w-1/2">
-            <h4 class="text-gray-400 text-center mx-9">
-              1. Membangun Kesatuan dan Kesehatian antar Mahasiswa di STIKOM
-              PGRI Banyuwangi <br />
-              2. Saling melayani dan menguatkan antar mahasiswa didalam
-              lingkungan STIKOM PGRI Banyuwangi <br />
-              3. Membangun Kreativitas serta pengembangan ilmu pengetahuan bahwa
-              masih ada OS (Operating System) selain Windows<br />
-            </h4>
-          </div>
-          <div
-            class="w-full self-center mt-8 justify-center flex mb-8 lg:w-1/2"
-          >
-            <h4 class="text-gray-400 text-center mt-6 mx-9">
-              1. Memperkenalkan Linux dan segala distronya kepada seluruh
-              Mahasiswa. <br />
-              2. Membentuk kelompok kecil antar mahasiswa STIKOM PGRI Banyuwangi
-              sebagai wujud untuk membangun kesehatian, persaudaraan antar
-              mahasiswa tanpa membedakan angkatan. <br />
-              3. Melakukan pembelajaran sebagai wujud rasa keingintahuan kita
-              kepada linux secara umumnya.
-            </h4>
-          </div>
-          <div
-            class="w-full self-center mt-8 justify-center flex lg:w-1/2 mb-8"
-          >
-            <img src="img/mis.png" alt="" />
+          <div class="misi flex flex-col-reverse lg:flex-row">
+            <div
+              class="w-full self-center mt-8 justify-center flex mb-8 lg:w-1/2"
+            >
+              <h4 class="text-gray-400 text-center mt-6 mx-9">
+                1. Memperkenalkan Linux dan segala distronya kepada seluruh
+                Mahasiswa. <br />
+                2. Membentuk kelompok kecil antar mahasiswa STIKOM PGRI
+                Banyuwangi sebagai wujud untuk membangun kesehatian,
+                persaudaraan antar mahasiswa tanpa membedakan angkatan. <br />
+                3. Melakukan pembelajaran sebagai wujud rasa keingintahuan kita
+                kepada linux secara umumnya.
+              </h4>
+            </div>
+            <div class="w-full self-center mt-8 justify-center flex lg:w-1/2">
+              <img class="h-36 w-52 lg:h-52 lg:w-60" src="img/mis.png" alt="" />
+            </div>
           </div>
         </div>
         <!--visimisi end-->
@@ -151,7 +157,7 @@
     <section class="overflow-hidden text-gray-700">
       <div class="container px-5 py-2 lg:pt-12 lg:px-30">
         <div class="flex flex-wrap">
-          <div class="w-full self-center mx-24">
+          <div class="w-full self-center">
             <h1 class="text-3xl text-green-700 font-bold">
               Susunan Kepengurusan
             </h1>
@@ -159,10 +165,10 @@
               Komunitas Linux Open Source
             </h1>
             <div class="flex flex-wrap">
-              <div class="flex flex-wrap w-1/3">
+              <div class="flex flex-wrap w-full md:w-1/2 lg:w-1/3 mb-10">
                 <div class="w-full p-1 md:p-2">
                   <h5 class="text-green-700">Ketua Umum</h5>
-                  <h2 class="text-black font-semibold text-2xl mb-9">
+                  <h2 class="text-black font-semibold text-2xl mb-6">
                     Renaldi Sigit Pratama
                   </h2>
                   <img
@@ -172,10 +178,10 @@
                   />
                 </div>
               </div>
-              <div class="flex flex-wrap w-1/3">
+              <div class="flex flex-wrap md:w-1/2 lg:w-1/3 mb-10">
                 <div class="w-full p-1 md:p-2">
                   <h5 class="text-green-700">Wakil Ketua</h5>
-                  <h2 class="text-black font-semibold text-2xl mb-9">
+                  <h2 class="text-black font-semibold text-2xl mb-6">
                     Nadhia Tifani
                   </h2>
                   <img
@@ -185,10 +191,10 @@
                   />
                 </div>
               </div>
-              <div class="flex flex-wrap w-1/3">
+              <div class="flex flex-wrap w-full md:w-1/2 lg:w-1/3 mb-10">
                 <div class="w-full p-1 md:p-2">
                   <h5 class="text-green-700">Sekertaris</h5>
-                  <h2 class="text-black font-semibold text-2xl mb-9">
+                  <h2 class="text-black font-semibold text-2xl mb-6">
                     Derryl Youri Mohammed
                   </h2>
                   <img
@@ -198,10 +204,10 @@
                   />
                 </div>
               </div>
-              <div class="flex flex-wrap w-1/3">
+              <div class="flex flex-wrap w-full md:w-1/2 lg:w-1/3 mb-10">
                 <div class="w-full p-1 md:p-2">
                   <h5 class="text-green-700">Bendahara 1</h5>
-                  <h2 class="text-black font-semibold text-2xl mb-9">
+                  <h2 class="text-black font-semibold text-2xl mb-6">
                     Monicha Puspita Dewi
                   </h2>
                   <img
@@ -211,10 +217,10 @@
                   />
                 </div>
               </div>
-              <div class="flex flex-wrap w-1/3">
+              <div class="flex flex-wrap w-full md:w-1/2 lg:w-1/3 mb-10">
                 <div class="w-full p-1 md:p-2">
                   <h5 class="text-green-700">Bendahara 2</h5>
-                  <h2 class="text-black font-semibold text-2xl mb-9">
+                  <h2 class="text-black font-semibold text-2xl mb-6">
                     Adinda Inne Khotijah
                   </h2>
                   <img
@@ -224,10 +230,10 @@
                   />
                 </div>
               </div>
-              <div class="flex flex-wrap w-1/3">
+              <div class="flex flex-wrap w-full md:w-1/2 lg:w-1/3 mb-10">
                 <div class="w-full p-1 md:p-2">
                   <h5 class="text-green-700">Koor Divisi Pemrograman</h5>
-                  <h2 class="text-black font-semibold text-2xl mb-9">
+                  <h2 class="text-black font-semibold text-2xl mb-6">
                     M. Kusen Abdullah
                   </h2>
                   <img
@@ -237,10 +243,10 @@
                   />
                 </div>
               </div>
-              <div class="flex flex-wrap w-1/3">
+              <div class="flex flex-wrap w-full md:w-1/2 lg:w-1/3 mb-10">
                 <div class="w-full p-1 md:p-2">
                   <h5 class="text-green-700">Anggota Divisi Pemrograman</h5>
-                  <h2 class="text-black font-semibold text-2xl mb-9">
+                  <h2 class="text-black font-semibold text-2xl mb-6">
                     Moh. Nur Hakim
                   </h2>
                   <img
@@ -250,10 +256,10 @@
                   />
                 </div>
               </div>
-              <div class="flex flex-wrap w-1/3">
+              <div class="flex flex-wrap w-full md:w-1/2 lg:w-1/3 mb-10">
                 <div class="w-full p-1 md:p-2">
                   <h5 class="text-green-700">Koor Divisi Pengembangan</h5>
-                  <h2 class="text-black font-semibold text-2xl mb-9">
+                  <h2 class="text-black font-semibold text-2xl mb-6">
                     Dedi Kurniawan
                   </h2>
                   <img
@@ -263,10 +269,10 @@
                   />
                 </div>
               </div>
-              <div class="flex flex-wrap w-1/3">
+              <div class="flex flex-wrap w-full mb-10 md:w-1/2 lg:w-1/3">
                 <div class="w-full p-1 md:p-2">
                   <h5 class="text-green-700">Anggota Divisi Pengembangan</h5>
-                  <h2 class="text-black font-semibold text-2xl mb-9">
+                  <h2 class="text-black font-semibold text-2xl mb-6">
                     Omy Gusti Rifani
                   </h2>
                   <img
@@ -276,10 +282,10 @@
                   />
                 </div>
               </div>
-              <div class="flex flex-wrap w-1/3">
+              <div class="flex flex-wrap w-full md:w-1/2 lg:w-1/3 mb-10">
                 <div class="w-full p-1 md:p-2">
                   <h5 class="text-green-700">Koor Divisi Bisnis</h5>
-                  <h2 class="text-black font-semibold text-2xl mb-9">
+                  <h2 class="text-black font-semibold text-2xl mb-6">
                     Lisa Dwi Wahyuni
                   </h2>
                   <img
@@ -289,10 +295,10 @@
                   />
                 </div>
               </div>
-              <div class="flex flex-wrap w-1/3">
+              <div class="flex flex-wrap w-full md:w-1/2 lg:w-1/3 mb-10">
                 <div class="w-full p-1 md:p-2">
                   <h5 class="text-green-700">Anggota Divisi Bisnis</h5>
-                  <h2 class="text-black font-semibold text-2xl mb-9">
+                  <h2 class="text-black font-semibold text-2xl mb-6">
                     Mei Ayuningsari
                   </h2>
                   <img
@@ -312,68 +318,82 @@
     <section class="overflow-hidden">
       <div class="container px-5 py-2 lg:pt-12 lg:px-30">
         <div class="flex flex-wrap">
-          <div class="w-full self-center mx-24">
-            <h1 class="text-green-700 font-bold text-3xl">Bidang Divisi</h1>
-            <h1 class="text-green-700 font-bold text-3xl">
+          <div class="w-full self-center">
+            <h1 class="text-green-700 text-center font-bold text-3xl">
+              Bidang Divisi
+            </h1>
+            <h1 class="text-green-700 font-bold text-center text-3xl">
               Komunitas Linux Open Source
             </h1>
-            <div class="flex flex-wrap">
-              <div class="flex flex-wrap w-1/3 mb-4">
-                <div class="w-full p-1 md:p-2 px-4">
+            <div class="flex md:flex-col flex-col lg:flex-row md:my-9">
+              <div class="flex mb-4 lg:w-1/3">
+                <div
+                  class="w-full md:flex md:flex-row lg:flex-col p-1 md:p-2 px-4"
+                >
                   <img src="img/Open source-bro 1.png" alt="" class="mb-4" />
-                  <h5 class="text-green-700 mb-2 font-semibold">
-                    Divisi Pengembangan
-                  </h5>
-                  <p class="text-gray-500">
-                    Divisi pengembangan minat bakat merupakan divisi yang
-                    bertanggung jawab atas perkembangan minat dan bakat yang
-                    dimiliki oleh anggota maupun pengurus UKM K.L.O.S.O. Yang
-                    mana divisi ini mengarah pada pengembangan minat bakat
-                    melalui adanya kelas pengembangan dan pendelegasian. Dengan
-                    adanya divisi ini diharapkan anggota dan pengurus dapat
-                    mengembangkan softskill yang dimiliki dan nantinya dapat
-                    bermanfaat untuk diri sendiri, orang lain, juga untuk UKM
-                    K.L.O.S.O
-                  </p>
+                  <div class="description">
+                    <h5 class="text-green-700 mb-2 font-semibold">
+                      Divisi Pengembangan
+                    </h5>
+                    <p class="text-gray-500">
+                      Divisi pengembangan minat bakat merupakan divisi yang
+                      bertanggung jawab atas perkembangan minat dan bakat yang
+                      dimiliki oleh anggota maupun pengurus UKM K.L.O.S.O. Yang
+                      mana divisi ini mengarah pada pengembangan minat bakat
+                      melalui adanya kelas pengembangan dan pendelegasian.
+                      Dengan adanya divisi ini diharapkan anggota dan pengurus
+                      dapat mengembangkan softskill yang dimiliki dan nantinya
+                      dapat bermanfaat untuk diri sendiri, orang lain, juga
+                      untuk UKM K.L.O.S.O
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div class="flex flex-wrap w-1/3 mb-4">
-                <div class="w-full p-1 md:p-2 px-4">
+              <div class="flex flex-wrap mb-4 lg:w-1/3">
+                <div
+                  class="w-full md:flex md:flex-row lg:flex-col p-1 md:p-2 px-4"
+                >
                   <img src="img/Code typing-bro 1.png" alt="" class="mb-4" />
-                  <h5 class="text-green-700 mb-2 font-semibold">
-                    Divisi Pemrograman
-                  </h5>
-                  <p class="text-gray-500">
-                    Divisi Programming adalah salah satu divisi yang ada di UKM
-                    K.L.O.S.O yang mempelajari tentang ilmu pemrograman. Nah,
-                    programming itu sendiri berasal dari kata program.Dalam
-                    programming, kita akan berkutak pada script-script atau
-                    source code pun bahasa pemrograman. Keuntungan dari
-                    bergabung di programming ialah kita bisa membuat suatu
-                    website sendiri dan juga mengetahui bahasa pemrograman agar
-                    bisa menjadi seorang programer.
-                  </p>
+                  <div class="description">
+                    <h5 class="text-green-700 mb-2 font-semibold">
+                      Divisi Pemrograman
+                    </h5>
+                    <p class="text-gray-500">
+                      Divisi Programming adalah salah satu divisi yang ada di
+                      UKM K.L.O.S.O yang mempelajari tentang ilmu pemrograman.
+                      Nah, programming itu sendiri berasal dari kata
+                      program.Dalam programming, kita akan berkutak pada
+                      script-script atau source code pun bahasa pemrograman.
+                      Keuntungan dari bergabung di programming ialah kita bisa
+                      membuat suatu website sendiri dan juga mengetahui bahasa
+                      pemrograman agar bisa menjadi seorang programer.
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div class="flex flex-wrap w-1/3 mb-4">
-                <div class="w-full p-1 md:p-2 px-4">
+              <div class="flex flex-wrap mb-4 lg:w-1/3">
+                <div
+                  class="w-full md:flex md:flex-row lg:flex-col p-1 md:p-2 px-4"
+                >
                   <img
                     src="img/Starting a business project-bro 1.png"
                     alt=""
                     class="mb-4"
                   />
-                  <h5 class="text-green-700 mb-2 font-semibold">
-                    Divisi Bisnis
-                  </h5>
-                  <p class="text-gray-500">
-                    Divisi Bisnis adalah salah satu divisi yang ada di UKM
-                    K.L.O.S.O yang mempelajari tentang ilmu bisnis. Nah, Bisnis
-                    itu sendiri merupakan kegiatan yang dilakukan oleh individu
-                    dan organisasi yang menciptakan nilai melalui produk barang
-                    dan jasa untuk memperoleh keuntungan dan memenuhi kebutuhan
-                    masyarakat.Dengan mengelola website dan media sosial milik
-                    UKM yang ada.
-                  </p>
+                  <div class="description">
+                    <h5 class="text-green-700 mb-2 font-semibold">
+                      Divisi Bisnis
+                    </h5>
+                    <p class="text-gray-500">
+                      Divisi Bisnis adalah salah satu divisi yang ada di UKM
+                      K.L.O.S.O yang mempelajari tentang ilmu bisnis. Nah,
+                      Bisnis itu sendiri merupakan kegiatan yang dilakukan oleh
+                      individu dan organisasi yang menciptakan nilai melalui
+                      produk barang dan jasa untuk memperoleh keuntungan dan
+                      memenuhi kebutuhan masyarakat.Dengan mengelola website dan
+                      media sosial milik UKM yang ada.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
