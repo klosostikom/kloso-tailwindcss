@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.shownav {
+  animation: navshow 1s;
+}
+@keyframes navshow {
+  0% {
+    @apply opacity-50;
+  }
+  100% {
+    @apply opacity-100;
+  }
+}

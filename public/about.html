@@ -27,6 +27,7 @@
           />
         </a>
         <button
+          id="hamburger"
           data-collapse-toggle="navbar-default"
           type="button"
           class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -48,22 +49,22 @@
             ></path>
           </svg>
         </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <div class="w-full hidden md:block md:w-auto" id="navbar-menu">
           <ul
-            class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border font-Roboto border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white"
+            class="flex flex-col p-4 mt-4 rounded-lg border font-Roboto border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white"
           >
             <li>
               <a
                 href="index.html"
-                class="block py-2 pr-4 pl-2 text-black rounded font-medium text-base hover:text-green-700 hover:opacity-80 transition duration-300 ease-in-out"
+                class="block py-2 pr-4 pl-3 text-base text-green-700 rounded font-medium"
+                aria-current="page"
                 >Beranda</a
               >
             </li>
             <li>
               <a
                 href="about.html"
-                class="block py-2 pr-4 pl-3 text-base text-green-700 rounded font-medium"
-                aria-current="page"
+                class="block py-2 pr-4 pl-2 text-black rounded font-medium text-base hover:text-green-700 hover:opacity-80 transition duration-300 ease-in-out"
                 >Tentang Kami</a
               >
             </li>
@@ -425,5 +426,6 @@
       </div>
     </footer>
     <!---footer end-->
+    <script src="/dist/script.js"></script>
   </body>
 </html>
